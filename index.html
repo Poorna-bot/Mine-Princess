@@ -1,11 +1,11 @@
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;For My Beloved Sathya&lt;/title&gt;
-    &lt;style&gt;
-        @import url('https://fonts.googleapis.com/css2?family=Parisienne&amp;family=Playfair+Display:ital,wght@0,400;0,600;1,400&amp;family=Montserrat:wght@300;400&amp;display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Beloved Sathya</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400&display=swap');
 
         body, html {
             margin: 0;
@@ -274,67 +274,67 @@
             25%, 75% { transform: translateX(-6px); }
             50% { transform: translateX(6px); }
         }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
+    </style>
+</head>
+<body>
 
-    &lt;!-- Heartbeat Preloader --&gt;
-    &lt;div id="preloader"&gt;
-        &lt;div class="heart-beat"&gt;❤️&lt;/div&gt;
-        &lt;div class="preloader-text"&gt;Listen to my heart...&lt;/div&gt;
-    &lt;/div&gt;
+    <!-- Heartbeat Preloader -->
+    <div id="preloader">
+        <div class="heart-beat">❤️</div>
+        <div class="preloader-text">Listen to my heart...</div>
+    </div>
 
-    &lt;!-- Background Image --&gt;
-    &lt;div class="bg-image"&gt;&lt;/div&gt;
+    <!-- Background Image -->
+    <div class="bg-image"></div>
 
-    &lt;audio id="bgMusic" loop&gt;
-        &lt;source src="https://saviya-kolla-database.vercel.app/AUDIO/SAVIYA_1772657006879_2l9bx4.mp3" type="audio/mpeg"&gt;
-    &lt;/audio&gt;
+    <audio id="bgMusic" loop>
+        <source src="https://saviya-kolla-database.vercel.app/AUDIO/SAVIYA_1772657006879_2l9bx4.mp3" type="audio/mpeg">
+    </audio>
 
-    &lt;!-- First Gate --&gt;
-    &lt;div id="loginScreen" class="glass-card hidden"&gt;
-        &lt;h1&gt;A Secret Awaits&lt;/h1&gt;
-        &lt;p class="hint"&gt;Only the queen of my universe holds the key.&lt;/p&gt;
-        &lt;input type="password" id="mainPassword" placeholder="Enter Your Name"&gt;
-        &lt;br&gt;
-        &lt;button onclick="checkMainPassword()"&gt;Unlock My Soul&lt;/button&gt;
-        &lt;p id="mainError" class="error-msg"&gt;The universe does not recognize this key.&lt;/p&gt;
-    &lt;/div&gt;
+    <!-- First Gate -->
+    <div id="loginScreen" class="glass-card hidden">
+        <h1>A Secret Awaits</h1>
+        <p class="hint">Only the queen of my universe holds the key.</p>
+        <input type="password" id="mainPassword" placeholder="Enter Your Name">
+        <br>
+        <button onclick="checkMainPassword()">Unlock My Soul</button>
+        <p id="mainError" class="error-msg">The universe does not recognize this key.</p>
+    </div>
 
-    &lt;!-- Main Content Screen --&gt;
-    &lt;div id="mainScreen" class="glass-card hidden"&gt;
-        &lt;h2 class="subtitle"&gt;My Dearest Sathya,&lt;/h2&gt;
-        &lt;div style="position: relative;"&gt;
-            &lt;p id="typewriterText"&gt;&lt;/p&gt;&lt;span class="cursor" id="cursor"&gt;&lt;/span&gt;
-        &lt;/div&gt;
+    <!-- Main Content Screen -->
+    <div id="mainScreen" class="glass-card hidden">
+        <h2 class="subtitle">My Dearest Sathya,</h2>
+        <div style="position: relative;">
+            <p id="typewriterText"></p><span class="cursor" id="cursor"></span>
+        </div>
         
-        &lt;!-- Second Lock --&gt;
-        &lt;div id="secondLockSection" class="hidden" style="margin-top: 15px; border-top: 1px solid rgba(255,179,198,0.2); padding-top: 20px;"&gt;
-            &lt;p style="font-size: 0.9rem; color: #ffb3c6; margin-bottom: 5px; font-family: 'Playfair Display', serif;"&gt;One last secret to unfold...&lt;/p&gt;
-            &lt;p class="hint" style="margin-bottom: 12px;"&gt;(Hint: The 4-letter word that binds our souls)&lt;/p&gt;
-            &lt;input type="password" id="secondPassword" placeholder="Secret Word" style="width: 70%; padding: 10px; font-size: 0.85rem;"&gt;
-            &lt;br&gt;
-            &lt;button onclick="checkSecondPassword()" style="padding: 8px 25px; font-size: 0.85rem; margin-top: 15px;"&gt;Reveal Forever&lt;/button&gt;
-            &lt;p id="secondError" class="error-msg"&gt;That is not the word, my love.&lt;/p&gt;
-        &lt;/div&gt;
+        <!-- Second Lock -->
+        <div id="secondLockSection" class="hidden" style="margin-top: 15px; border-top: 1px solid rgba(255,179,198,0.2); padding-top: 20px;">
+            <p style="font-size: 0.9rem; color: #ffb3c6; margin-bottom: 5px; font-family: 'Playfair Display', serif;">One last secret to unfold...</p>
+            <p class="hint" style="margin-bottom: 12px;">(Hint: The 4-letter word that binds our souls)</p>
+            <input type="password" id="secondPassword" placeholder="Secret Word" style="width: 70%; padding: 10px; font-size: 0.85rem;">
+            <br>
+            <button onclick="checkSecondPassword()" style="padding: 8px 25px; font-size: 0.85rem; margin-top: 15px;">Reveal Forever</button>
+            <p id="secondError" class="error-msg">That is not the word, my love.</p>
+        </div>
 
-        &lt;!-- Final Memory Reveal --&gt;
-        &lt;div id="finalMessageSection" class="hidden"&gt;
-            &lt;!-- Polaroid Frame --&gt;
-            &lt;div class="polaroid"&gt;
-                &lt;img src="https://files.catbox.moe/63i5hi.jpg" alt="Our Beautiful Memory"&gt;
-                &lt;div class="polaroid-caption"&gt;You &amp; Me ❤️&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;p class="final-quote"&gt;"I loved you yesterday, I love you still,&lt;br&gt;I always have, and I always will."&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+        <!-- Final Memory Reveal -->
+        <div id="finalMessageSection" class="hidden">
+            <!-- Polaroid Frame -->
+            <div class="polaroid">
+                <img src="https://files.catbox.moe/63i5hi.jpg" alt="Our Beautiful Memory">
+                <div class="polaroid-caption">You & Me ❤️</div>
+            </div>
+            <p class="final-quote">"I loved you yesterday, I love you still,<br>I always have, and I always will."</p>
+        </div>
+    </div>
 
-    &lt;script&gt;
+    <script>
         // Preloader Logic
-        window.onload = () =&gt; {
-            setTimeout(() =&gt; {
+        window.onload = () => {
+            setTimeout(() => {
                 document.getElementById("preloader").style.opacity = "0";
-                setTimeout(() =&gt; {
+                setTimeout(() => {
                     document.getElementById("preloader").style.display = "none";
                     document.getElementById("loginScreen").classList.remove("hidden");
                 }, 1500);
@@ -350,10 +350,10 @@
             const music = document.getElementById("bgMusic");
 
             if (input === MAIN_PASSWORD) {
-                music.play().catch(e =&gt; console.log("Autoplay blocked."));
+                music.play().catch(e => console.log("Autoplay blocked."));
                 
                 loginScreen.classList.add("hidden");
-                setTimeout(() =&gt; {
+                setTimeout(() => {
                     document.getElementById("mainScreen").classList.remove("hidden");
                     startMagicParticles();
                     startTypewriter();
@@ -361,7 +361,7 @@
             } else {
                 document.getElementById("mainError").style.display = "block";
                 loginScreen.classList.add("shake");
-                setTimeout(() =&gt; loginScreen.classList.remove("shake"), 400);
+                setTimeout(() => loginScreen.classList.remove("shake"), 400);
             }
         }
 
@@ -372,13 +372,13 @@
             if (input === SECOND_PASSWORD) {
                 section.classList.add("hidden");
                 document.getElementById("cursor").style.display = "none";
-                setTimeout(() =&gt; {
+                setTimeout(() => {
                     document.getElementById("finalMessageSection").classList.remove("hidden");
                 }, 600);
             } else {
                 document.getElementById("secondError").style.display = "block";
                 section.classList.add("shake");
-                setTimeout(() =&gt; section.classList.remove("shake"), 400);
+                setTimeout(() => section.classList.remove("shake"), 400);
             }
         }
 
@@ -386,12 +386,12 @@
         let i = 0;
         
         function startTypewriter() {
-            if (i &lt; textToType.length) {
+            if (i < textToType.length) {
                 document.getElementById("typewriterText").innerHTML += textToType.charAt(i);
                 i++;
                 setTimeout(startTypewriter, 35); 
             } else {
-                setTimeout(() =&gt; {
+                setTimeout(() => {
                     document.getElementById("secondLockSection").classList.remove("hidden");
                 }, 800);
             }
@@ -402,7 +402,7 @@
         
         function startMagicParticles() {
          
-            setInterval(() =&gt; {
+            setInterval(() => {
                 const el = document.createElement("div");
                 el.innerHTML = petals[Math.floor(Math.random() * petals.length)];
                 el.classList.add("petal");
@@ -410,19 +410,19 @@
                 el.style.left = Math.random() * 100 + "vw";
                 el.style.animationDuration = (Math.random() * 4 + 4) + "s, " + (Math.random() * 2 + 2) + "s";
                 document.body.appendChild(el);
-                setTimeout(() =&gt; el.remove(), 8000);
+                setTimeout(() => el.remove(), 8000);
             }, 600);
 
             
-            setInterval(() =&gt; {
+            setInterval(() => {
                 const firefly = document.createElement("div");
                 firefly.classList.add("firefly");
                 firefly.style.left = Math.random() * 100 + "vw";
                 firefly.style.animationDuration = (Math.random() * 3 + 4) + "s, " + (Math.random() * 2 + 1) + "s";
                 document.body.appendChild(firefly);
-                setTimeout(() =&gt; firefly.remove(), 7000);
+                setTimeout(() => firefly.remove(), 7000);
             }, 400);
         }
-    &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+    </script>
+</body>
+</html>
